@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\livro;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -13,12 +13,16 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+
+
 Route::get('/', function () {
-    $livros=\App\livro::all();
+    $livros= App\livro::all();
     return $livros;
     
     
 });
+    
+
 
 Route::get('Contato', function () {
     return view('Contato');
