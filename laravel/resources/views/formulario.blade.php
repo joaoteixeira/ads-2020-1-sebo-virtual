@@ -4,65 +4,7 @@
 
 @section('content')
 
-<style>
-.col-md-9{
-  width:50%;
-}
-.discovery-pagination-controls{
-  border-radius: 6px;
-  box-shadow: none;
-  background: #dae1e7;
-  margin: 0px 0px 50px;
-  padding: 8px;
-}
-
-.section-title h2{
- margin:50px 10px 50px;
- font-size: 30px;
- font-family: 'Merriweather Sans', sans-serif;
-}
-
-.evenRowCol{
-margin:0px 50px 0px;
-}
-
-.btn-default[type="submit"] {
-  border: 0;
-  padding: 5px 20px;
-  color: #00A8CC;
-  transition: 0.4s;
-  border-radius: 50px;
-  border: 2px solid #00A8CC;
-  background: #fff;
-  margin: 0px 20px 0px;
-  cursor:pointer;
-}
-
-.btn-default[type="submit"]:hover {
-  background: #00A8CC;
-  color: #fff;
-}
-
-@-webkit-keyframes animate-loading {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-@keyframes animate-loading {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-</style>
-
+<link rel="stylesheet" href="{{ asset('css/formulario.css') }}"/>  
 <div class="aside">         
   <div class="container">
     <div class="row">
@@ -103,15 +45,19 @@ margin:0px 50px 0px;
           <table class="table"  width="350" height="100" >
             <thead>
               <tr >
-                <th>Título</th>           
+                <th>#</th>
+                <th>Nome</th>           
                 <th>Autor</th>
                 </tr>
               </thead>
             <tbody>
-              <tr align="center">
-                <td >Dom Camurro</td>
-                <td>Machado de Assis</td>
-            </tr>
+            @foreach($livros as $livro)
+              <tr>
+              <td>{{$livro->id}}</td>
+                <td >{{$livro->nome}}</td>
+                <td>{{$livro->autor}}</td>
+              </tr>
+          @endforeach
           </tbody>
         </table>
       </div>

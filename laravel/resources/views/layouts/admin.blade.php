@@ -8,173 +8,8 @@
 
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="estilo.css"/>
-        <!-- Styles -->
-        <style>
-            *{
-                box-sizing:border-box;
-                margin:0;
-            }
+        <link rel="stylesheet" href="{{ asset('css/admin.css') }}"/>
 
-            html, body {
-                background-color: #F6F6F6;
-                position: relative;
-                width: 100%;
-                height: 1780px;
-                color: #636b6f;
-                font-family: 'Nunito', sans-serif;
-                font-weight: 200;
-                margin: 0;
-                box-sizing: border-box;
-                padding: 0;
-            }
-            .content{
-                width: 100%;
-                height: 1780px;
-            }
-            #container-header{
-                width: 1366px;
-                height: 80px;
-                background: #ffffff;
-                margin: 0 auto;
-                position:relative;
-            }
-            
-            .navbar-expand-lg{
-                position: fixed;
-                width: 100%;
-                height: 80px;
-                left: 0px;
-                top: 0px;
-           
-            }
-
-            .navbar-light{
-                /*barra inferio*/
-                position: absolute;
-                left: 0%;
-                right: 0%;
-                top: 40%;
-                bottom: 0%;
-                
-                /* azul secundario 2 */
-                background: #27496D;
-                box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-            }
-            
-            .bg-light{
-                /*barra superior */
-                position: fixed;
-                left: 0%;
-                right: 0%;
-                top: 0%;
-                bottom: 100%;
-
-                /* azul secundario */
-                background: #142850;
-                border: 1px solid #000000;
-                box-sizing: border-box;
-                box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-            }
-
-            .botao01{
-                position:absolute;
-                left:60%;
-                right: 15%;
-                top: 50%;
-                bottom: 12.5%;
-                /* azul bt */
-                background: #00A8CC;
-                background: -webkit-linear-gradient(bottom, #00A8CC;, #F9F9F9 70%);
-                background: -moz-linear-gradient(bottom, #00A8CC;, #F9F9F9 70%);
-                background: linear-gradient(bottom, #00A8CC;, #F9F9F9 70%);
-                
-                border: 0.10px solid  #dae1e7;
-                 border-radius: 3px;
-                 box-shadow: 0 3px 0 rgba(0, 0, 0, .3),
-                               0 2px 7px rgba(0, 0, 0, 0.2);
-                text-shadow: 0px 1px 0px rgba(000,000,000,0.9),
-		                        0px 1px 0px rgba(255,255,255,0.3);
-                font-family: "Nunito";
-                color:#ffffff;
-                font-size: 16px;
-                line-height: 25px;
-                text-align: center;
-                text-decoration: none;
-                text-transform: uppercase;
-                cursor:pointer;
-                background: -webkit-linear-gradient(
-                linear, left top, left bottom,
-                from(#00a7cc),
-                to(#00a7cc));
-
-                background: linear-gradient(
-                top,
-                #00a7cc 0%,
-                #00a7cc);
-                border-radius: 19px;    
-            }
-
-            .txtBusca{
-                position: absolute;
-                left:25%;
-                right: 20%;
-                top: 50%;
-                bottom: 12.5%;
-
-                /* branc */
-                background: #FFFFFF;
-                border-radius: 20px;
-                font-family: "Nunito";
-                color:#000000;
-                font-size: 16px;
-                text-align: center;
-            }
-
-            .article{
-                width: 15%;
-                height: 1780px;
-                float: left;
-            }
-
-            .aside{
-                width: 85%;
-                height: 1780px;
-                float: right;
-            }
-
-            .container-01{
-                width: 1200px;
-                height: 50px;
-                background: #F6F6F6;
-                margin: 0 auto;
-                
-            }
-
-           .btn-primary{
-                text-decoration: none;
-                text-transform: uppercase;
-                
-           }
-           .footer{
-                width:100%;
-                height:15px;
-                border: 1px solid black;
-                clear: both;
-                
-           }
-           .py-4{
-                width: 100%;
-                height:15px;
-                font-family: "Nunito";
-                color:#1b1b2f;
-                font-size: 16px;
-                text-align: center;  
-                background: #27496D;
-                clear: both;                
-           }
-
-    </style>
     <!-- Custom styles for this template -->
     <link href="{{asset('css/album.css')}}" rel="stylesheet">
   </head>
@@ -198,23 +33,21 @@
                         <div class="form-group">
                             <input type="text" class="txtBusca" placeholder="procure por: assunto, titulo, autor" size="80">
                         </div>
-                        <button id="botao01" type="submit" class="botao01" position="fixed"  >Pesquisar</button>
+                        <a href="/Formulario" id="botao01"  class="botao01"   >Pesquisar</a>
                     </form>
                     </div>  
                 </div> 
             </div> 
         </header>
         <div class="container-01"> </div>
-        
         <div class="content">
                 <div class="title m-b-md">
                 @yield('content')
                 </div>
         <footer id="sticky-footer" class="py-4 bg-dark text-white-50" >
             <div class="container-text-center">
-                <small> SEBO VIRTUAL &copy; 🎥 &#10084; </small>
+                <small>SEBO VIRTUAL &copy;</small>
             </div>
         </footer>
-    
         </body>
 </html>

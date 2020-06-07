@@ -4,9 +4,10 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class livro extends Model
+class Livro extends Model
 {
-    protected $primaryKey='idlivro';
-    protected $table='livros';
-    public $timestamps=false;
+    protected $primaryKey='id';
+    protected $table = 'livros';
+    protected $fillable=['nome','autor'];
+    public $timestamps=false; 
 }

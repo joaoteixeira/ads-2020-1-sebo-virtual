@@ -1,7 +1,12 @@
 <?php
 
+
+
 use Illuminate\Support\Facades\Route;
-use App\livro;
+use App\Livro;
+use App\Acervo;
+use App\Leitor;
+use App\Requisicao;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -13,17 +18,29 @@ use App\livro;
 |
 */
 
+Route::get('/livros', function(){
+    $livros = Livro::All();
+    return $livros;
+});
 
+Route::get('/acervos', function(){
+    $acervos = Acervo::All();
+    return $acervos;
+});
+
+Route::get('/leitores', function(){
+    $leitores = Leitor::All();
+    return $leitores;
+});
+
+Route::get('/requisicoes', function(){
+    $requisicoes = Requisicao::All();
+    return $requisicoes;
+});
 
 Route::get('/', function () {
-    $livros= App\livro::all();
-    return $livros;
-    
-    
+    return view('PaginaInicial');  
 });
-    
-
-
 Route::get('Contato', function () {
     return view('Contato');
 });
@@ -51,3 +68,7 @@ Route::get('Doacao', function () {
 Route::get('Formulario', function () {
     return view('Formulario');
 });
+
+
+
+Route::resource('/clientes','ClienteController');
