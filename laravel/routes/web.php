@@ -65,10 +65,9 @@ Route::get('Sugestao', function () {
 Route::get('Doacao', function () {
     return view('Doacao');
 });
-Route::get('Formulario', function () {
-    return view('Formulario');
-});
+
 
 
 
 Route::resource('/clientes','ClienteController');
+Route::resource('Formulario','LivroController');

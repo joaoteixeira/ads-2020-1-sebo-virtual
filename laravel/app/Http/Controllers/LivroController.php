@@ -15,7 +15,7 @@ class LivroController extends Controller
     public function index()
     {
         $livros = Livro::All();
-        return view('layouts.formulario', array('livros'=>$livros));
+        return view('Formulario', array('livros'=>$livros));
     }
 
     /**
