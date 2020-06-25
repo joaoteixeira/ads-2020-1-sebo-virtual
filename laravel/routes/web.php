@@ -65,6 +65,9 @@ Route::get('Sugestao', function () {
 Route::get('Doacao', function () {
     return view('Doacao');
 });
+Route::get('Livro', function () {
+    return view('Livro');
+});
 
 
 

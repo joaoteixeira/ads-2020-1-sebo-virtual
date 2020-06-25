@@ -39,8 +39,7 @@
                                 </div>
                                     <div class="text-center">   
                                         <a href="/Doacao">Faça sua doação</a>
-                                    </div>
-                                    <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 50 64 0" width="270px" height="200px" fill="#40bad5" ><g id="Book-Online-Arrow-Direct-Learing-Cursor"><path d="M48.24,7.83A2.027,2.027,0,0,0,46.61,7H26.72a2.009,2.009,0,0,0-1.9,1.37l-3.33,10A1.993,1.993,0,0,0,23.39,21H43.28a2.009,2.009,0,0,0,1.9-1.37l3.33-10A2.022,2.022,0,0,0,48.24,7.83ZM43.28,19H23.39L26.72,9H46.61Z"/><path d="M57.07,5.95l-8.13,24.4a1,1,0,1,1-1.9-.64L55.17,5.32a.963.963,0,0,0-.13-.9A.983.983,0,0,0,54.23,4H20.44a1,1,0,0,0-.95.68l-14.66,44a.963.963,0,0,0,.13.9.983.983,0,0,0,.81.42H40a1,1,0,0,1,0,2H6.65A3,3,0,0,0,4,54.98V57a3.009,3.009,0,0,0,3,3H45.28l.76-2.3a1,1,0,1,1,1.9.64l-.99,2.98A1.014,1.014,0,0,1,46,62H7a5,5,0,0,1-5-5V54.98A4.973,4.973,0,0,1,3.75,51.2a2.923,2.923,0,0,1-.41-.45,2.957,2.957,0,0,1-.41-2.7l14.67-44A2.978,2.978,0,0,1,20.44,2H54.23a3,3,0,0,1,2.84,3.95Z"/><path d="M61.316,15.051a1,1,0,0,0-1.265.633l-6,18a1,1,0,0,0,1.9.632l6-18A1,1,0,0,0,61.316,15.051Z"/><path d="M59.53,41.15l-24-15a.992.992,0,0,0-1.17.08,1.008,1.008,0,0,0-.29,1.15l11,27A1.011,1.011,0,0,0,46,55a.34.34,0,0,0,.1-.01.977.977,0,0,0,.88-.81l1.87-10.25L59.09,43a1.006,1.006,0,0,0,.44-1.85ZM47.91,42a1,1,0,0,0-.89.82l-1.39,7.62L37.09,29.49,55.95,41.27Z"/></g></svg>    
+                                    </div>  
                             </div>
                         </div>
                     </div>
@@ -57,11 +56,11 @@
                         </div>
                         <div class="card-bt01">                                       
                             <div class="card01">      
-                                <a href="#" class="btn btn-primary"> 
-                                <img class="card-img-top" src="imagens/UM AMOR DE INVERNO.png" width="140px" height="150px" alt="Imagem de capa do card">
+                                <a href="/Livro" class="btn btn-primary"> 
+                                <img src="https://img.buzzfeed.com/buzzfeed-static/static/2017-07/12/14/asset/buzzfeed-prod-fastlane-02/sub-buzz-14262-1499883093-3.jpg?downsize=600:*&output-format=auto&output-quality=auto" width="140px" height="150px" alt="Imagem de capa do card"/>
                                 <div class="card-body">
                                     <a href="#" class="btn btn-primary"> 
-                                    <h5 class="card-title02">UM AMOR DE INVERNO<br></h5>
+                                    <h5 class="card-title02">A MENINA QUE ROUBAVA LIVROS<br></h5>
                                     <p class="card-text"></p>
                                     </a>
                                 </div>
@@ -70,11 +69,11 @@
                                 </div>
                             </div>  
                             <div class="card01" >
-                                <a href="#" class="btn btn-primary"> 
-                                <img class="card-img-top" src="imagens/Um Caminho Para a Liberdade.jpg" width="140px" height="150px" alt="Imagem de capa do card">
+                                <a href="/Livro" class="btn btn-primary"> 
+                                <img class="card-img-top" src="https://img.buzzfeed.com/buzzfeed-static/static/2017-07/12/10/asset/buzzfeed-prod-fastlane-02/sub-buzz-1192-1499870627-1.png?downsize=600:*&output-format=auto&output-quality=auto" width="140px" height="150px" alt="Imagem de capa do card">
                                 <div class="card-body">
                                     <a href="#" class="btn btn-primary"> 
-                                    <h5 class="card-title02">UM CAMINHO PARA A LIBERDADE</h5>
+                                    <h5 class="card-title02">ADMIRAVÁVEL MUNDO NOVO</h5>
                                     <p class="card-text"></p>
                                     </a>
                                 </div>
@@ -83,11 +82,11 @@
                                 </div>
                             </div>
                             <div class="card01">
-                                <a href="#" class="btn btn-primary"> 
-                                <img class="card-img-top" src="imagens/O Café da Praia.png" width="140px" height="150px" alt="Imagem de capa do card">
+                                <a href="/Livro" class="btn btn-primary"> 
+                                <img class="card-img-top" src="https://img.buzzfeed.com/buzzfeed-static/static/2017-07/12/13/asset/buzzfeed-prod-fastlane-02/sub-buzz-12897-1499881486-16.png?downsize=700%3A%2A&output-quality=auto&output-format=auto" width="140px" height="150px" alt="Imagem de capa do card">
                                 <div class="card-body">
                                     <a href="#" class="btn btn-primary"> 
-                                    <h5 class="card-title02">O CAFÉ DA PRAIA</h5>
+                                    <h5 class="card-title02">OUTROS JEITOS DE USAR A BOCA</h5>
                                     <p class="card-text"></p>
                                     </a>
                                 </div>
@@ -96,11 +95,11 @@
                                 </div>        
                             </div>
                             <div class="card01">
-                                <a href="#" class="btn btn-primary"> 
-                                <img class="card-img-top" src="imagens/O Lado Bom Do Lado Ruim.png" width="140px" height="150px" alt="Imagem de capa do card">
+                                <a href="/Livro" class="btn btn-primary"> 
+                                <img class="card-img-top" src="https://4.bp.blogspot.com/-B902NPbN6lI/V49g40ZXtJI/AAAAAAAAbLo/8Gkw1KK0K3cwwnV_k58gl-Bh1uuYnNxzQCLcB/s1600/13720588_1227151630683267_1762470487_o.jpg" width="140px" height="150px" alt="Imagem de capa do card">
                                 <div class="card-body">
                                     <a href="#" class="btn btn-primary"> 
-                                    <h5 class="card-title02">O LADO BOM DO LADO RUIM</h5>
+                                    <h5 class="card-title02">A REVOLUÇÃO DOS BICHOS</h5>
                                     <p class="card-text"></p>
                                     </a>
                                 </div>
@@ -109,11 +108,11 @@
                                 </div>        
                             </div>
                             <div class="card01" >
-                                <a href="#" class="btn btn-primary"> 
-                                <img class="card-img-top" src="imagens/capadelivro.jpg" width="140px" height="150px" alt="Imagem de capa do card">
+                                <a href="/Livro" class="btn btn-primary"> 
+                                <img class="card-img-top" src="https://img.buzzfeed.com/buzzfeed-static/static/2017-07/11/16/asset/buzzfeed-prod-fastlane-02/sub-buzz-19365-1499804693-2.jpg?downsize=600:*&output-format=auto&output-quality=auto" width="140px" height="150px" alt="Imagem de capa do card">
                                 <div class="card-body">
                                     <a href="#" class="btn btn-primary"> 
-                                    <h5 class="card-title02">O PODER DO HÁBITO</h5>
+                                    <h5 class="card-title02">A MARCA DE UMA LÁGRIMA</h5>
                                     <p class="card-text"></p>
                                     </a>
                                 </div>
@@ -122,11 +121,11 @@
                                 </div>        
                             </div>
                             <div class="card01" >
-                                <a href="#" class="btn btn-primary"> 
-                                <img class="card-img-top" src="imagens/livroD.jpg" width="140px" height="150px" alt="Imagem de capa do card">
+                                <a href="/Livro" class="btn btn-primary"> 
+                                <img class="card-img-top" src="https://img.buzzfeed.com/buzzfeed-static/static/2017-07/12/15/asset/buzzfeed-prod-fastlane-03/sub-buzz-26454-1499886357-4.png?downsize=600:*&output-format=auto&output-quality=auto" width="140px" height="150px" alt="Imagem de capa do card">
                                 <div class="card-body">
                                     <a href="#" class="btn btn-primary"> 
-                                    <h5 class="card-title02">A PACIENTE SILENCIOSA</h5>
+                                    <h5 class="card-title02">AMERICANAH</h5>
                                     <p class="card-text"></p>
                                     </a>
                                 </div>
@@ -139,11 +138,11 @@
                     <div class="card-title01">MAIS POPULARES</div>
                         <div class="card-bt01">      
                             <div class="card01" >
-                                <a href="#" class="btn btn-primary"> 
-                                <img class="card-img-top" src="imagens/livroF.jpg" width="140px" height="150px" alt="Imagem de capa do card"></a>
+                                <a href="/Livro" class="btn btn-primary"> 
+                                <img class="card-img-top" src="https://img.buzzfeed.com/buzzfeed-static/static/2017-07/12/14/asset/buzzfeed-prod-fastlane-01/sub-buzz-7071-1499883463-14.jpg?downsize=600:*&output-format=auto&output-quality=auto" width="140px" height="150px" alt="Imagem de capa do card"></a>
                                 <div class="card-body">
                                     <a href="#" class="btn btn-primary"> 
-                                    <h5 class="card-title02">O SOL É PARA TODOS</h5>
+                                    <h5 class="card-title02">ORGULHO E PRECONCEITO</h5>
                                     <p class="card-text02"></p>
                                     </a>
                                 </div>
@@ -152,11 +151,11 @@
                                 </div>
                             </div>
                             <div class="card01" >
-                                <a href="#" class="btn btn-primary"> 
-                                <img class="card-img-top" src="imagens/livroG.jpg" width="140px" height="150px" alt="Imagem de capa do card">
+                                <a href="/Livro" class="btn btn-primary"> 
+                                <img class="card-img-top" src="https://img.buzzfeed.com/buzzfeed-static/static/2017-07/12/14/asset/buzzfeed-prod-fastlane-01/sub-buzz-8536-1499885308-7.jpg?downsize=600:*&output-format=auto&output-quality=auto" width="140px" height="150px" alt="Imagem de capa do card">
                                 <div class="card-body">
                                     <a href="#" class="btn btn-primary"> 
-                                    <h5 class="card-title02">LARANJA MECÂNICA</h5>
+                                    <h5 class="card-title02">EXTRAORDINÁRIO</h5>
                                     <p class="card-text"></p>
                                     </a>
                                 </div>
@@ -165,11 +164,11 @@
                                 </div>
                             </div>
                             <div class="card01" >
-                                <a href="#" class="btn btn-primary"> 
-                                <img class="card-img-top" src="imagens/livroC.jpg" width="140px" height="150px" alt="Imagem de capa do card">
+                                <a href="/Livro" class="btn btn-primary"> 
+                                <img class="card-img-top" src="https://img.buzzfeed.com/buzzfeed-static/static/2017-07/12/13/asset/buzzfeed-prod-fastlane-03/sub-buzz-22327-1499880519-7.jpg?downsize=600:*&output-format=auto&output-quality=auto" width="140px" height="150px" alt="Imagem de capa do card">
                                 <div class="card-body">
                                     <a href="#" class="btn btn-primary"> 
-                                    <h5 class="card-title02">MINHA VERSÃO DE VOCÊ</h5>
+                                    <h5 class="card-title02">O CAÇADOR DE PIPAS</h5>
                                     <p class="card-text"></p>
                                     </a>
                                 </div>
@@ -178,11 +177,11 @@
                                 </div>
                             </div>
                             <div class="card01" >
-                                <a href="#" class="btn btn-primary"> 
-                                <img class="card-img-top" src="imagens/O Labirinto do Fauno.jpg" width="140px" height="150px" alt="Imagem de capa do card">
+                                <a href="/Livro" class="btn btn-primary"> 
+                                <img class="card-img-top" src="https://img.buzzfeed.com/buzzfeed-static/static/2017-07/12/10/asset/buzzfeed-prod-fastlane-02/sub-buzz-649-1499870194-11.jpg?downsize=600:*&output-format=auto&output-quality=auto" width="140px" height="150px" alt="Imagem de capa do card">
                                 <div class="card-body">
                                     <a href="#" class="btn btn-primary"> 
-                                    <h5 class="card-title02">O LABIRINTO DO FAUNO</h5>
+                                    <h5 class="card-title02">A INSUSTENTÁVEL LEVEZA DO SER</h5>
                                     <p class="card-text"></p>
                                     </a>
                                 </div>
@@ -191,11 +190,11 @@
                                 </div>
                             </div>
                             <div class="card01" >
-                                <a href="#" class="btn btn-primary"> 
-                                <img class="card-img-top" src="imagens/livroH.jpg" width="140px" height="150px" alt="Imagem de capa do card">
+                                <a href="/Livro" class="btn btn-primary"> 
+                                <img class="card-img-top" src="https://img.buzzfeed.com/buzzfeed-static/static/2017-07/12/10/asset/buzzfeed-prod-fastlane-02/sub-buzz-32520-1499869314-6.jpg?downsize=600:*&output-format=auto&output-quality=auto" width="140px" height="150px" alt="Imagem de capa do card">
                                 <div class="card-body">
                                     <a href="#" class="btn btn-primary"> 
-                                    <h5 class="card-title02">OS MÉDICOS DA MORTE</h5>
+                                    <h5 class="card-title02">FRASER E BILLY</h5>
                                     <p class="card-text"></p>
                                     </a>
                                 </div>
@@ -204,11 +203,11 @@
                                 </div>
                             </div>
                             <div class="card01" >
-                                <a href="#" class="btn btn-primary"> 
-                                <img class="card-img-top" src="imagens/livroj.png" width="140px" height="150px" alt="Imagem de capa do card">
+                                <a href="/Livro" class="btn btn-primary"> 
+                                <img class="card-img-top" src="https://img.buzzfeed.com/buzzfeed-static/static/2017-07/12/10/asset/buzzfeed-prod-fastlane-01/sub-buzz-24591-1499868761-16.jpg?downsize=600:*&output-format=auto&output-quality=auto" width="140px" height="150px" alt="Imagem de capa do card">
                                 <div class="card-body">
                                     <a href="#" class="btn btn-primary"> 
-                                    <h5 class="card-title02">ANNE DE GREEN GLABES</h5>
+                                    <h5 class="card-title02">A SOMBRA DO VENTO</h5>
                                     <p class="card-text"></p>
                                     </a>
                                 </div>
@@ -220,11 +219,11 @@
                     <div class="card-title01">LITERATURA BRASILEIRA</div>
                         <div class="card-bt01">      
                             <div class="card01" >
-                                <a href="#" class="btn btn-primary"> 
-                                <img class="card-img-top" src="imagens/LAÇOS DE FAMILIA.JPG" width="140px" height="150px" alt="Imagem de capa do card">
+                                <a href="/Livro" class="btn btn-primary"> 
+                                <img class="card-img-top" src="https://img.buzzfeed.com/buzzfeed-static/static/2017-07/12/14/asset/buzzfeed-prod-fastlane-02/sub-buzz-15142-1499884676-1.jpg?downsize=600:*&output-format=auto&output-quality=auto" width="140px" height="150px" alt="Imagem de capa do card">
                                 <div class="card-body">
                                     <a href="#" class="btn btn-primary"> 
-                                    <h5 class="card-title02">LAÇOS DE FAMÍLIA</h5>
+                                    <h5 class="card-title02">GRANDE SERTÃO VEREDAS</h5>
                                     <p class="card-text"></p>
                                     </a>
                                 </div>
@@ -233,11 +232,11 @@
                                 </div>
                             </div>
                             <div class="card01" >
-                                <a href="#" class="btn btn-primary"> 
-                                <img class="card-img-top" src="imagens/Constituição Federal.jpg" width="140px" height="150px" alt="Imagem de capa do card">
+                                <a href="/Livro" class="btn btn-primary"> 
+                                <img class="card-img-top" src="https://img.buzzfeed.com/buzzfeed-static/static/2017-07/12/13/asset/buzzfeed-prod-fastlane-03/sub-buzz-21803-1499879464-5.jpg?downsize=600:*&output-format=auto&output-quality=auto" width="140px" height="150px" alt="Imagem de capa do card">
                                 <div class="card-body">
                                     <a href="#" class="btn btn-primary"> 
-                                    <h5 class="card-title02">CONSTITUIÇÃO FEDERAL</h5>
+                                    <h5 class="card-title02">CAMILO MORTÁGUA</h5>
                                     <p class="card-text"></p>
                                     </a>
                                 </div>
@@ -246,11 +245,11 @@
                                 </div>
                             </div>
                             <div class="card01" >
-                                <a href="#" class="btn btn-primary"> 
-                                <img class="card-img-top" src="imagens/livroK.jpg" width="140px" height="150px" alt="Imagem de capa do card">
+                                <a href="/Livro" class="btn btn-primary"> 
+                                <img class="card-img-top" src="https://img.buzzfeed.com/buzzfeed-static/static/2017-07/12/11/asset/buzzfeed-prod-fastlane-01/sub-buzz-32536-1499872848-9.jpg?downsize=600:*&output-format=auto&output-quality=auto" width="140px" height="150px" alt="Imagem de capa do card">
                                 <div class="card-body">
                                     <a href="#" class="btn btn-primary"> 
-                                    <h5 class="card-title02">ALIENISTA</h5>
+                                    <h5 class="card-title02">HISTÓRIA DO NOVO SOBRENOME</h5>
                                     <p class="card-text"></p>
                                     </a>
                                 </div>
@@ -259,11 +258,11 @@
                                 </div>
                             </div>
                             <div class="card01" >
-                                <a href="#" class="btn btn-primary"> 
-                                <img class="card-img-top" src="imagens/livrom.jpg" width="140px" height="150px" alt="Imagem de capa do card">
+                                <a href="/Livro" class="btn btn-primary"> 
+                                <img class="card-img-top" src="https://img.buzzfeed.com/buzzfeed-static/static/2017-07/12/10/asset/buzzfeed-prod-fastlane-01/sub-buzz-26521-1499871265-8.jpg?downsize=600:*&output-format=auto&output-quality=auto" width="140px" height="150px" alt="Imagem de capa do card">
                                 <div class="card-body">
                                     <a href="#" class="btn btn-primary"> 
-                                    <h5 class="card-title02">IRACEMA</h5>
+                                    <h5 class="card-title02">O HOMEM QUE DESAFIOU O DIABO</h5>
                                     <p class="card-text"></p>
                                     </a>
                                 </div>
@@ -272,11 +271,11 @@
                                 </div>
                             </div>
                             <div class="card01" >
-                                <a href="#" class="btn btn-primary"> 
-                                <img class="card-img-top" src="imagens/livroN.jpg" width="140px" height="150px" alt="Imagem de capa do card">
+                                <a href="/Livro" class="btn btn-primary"> 
+                                <img class="card-img-top" src="https://img.buzzfeed.com/buzzfeed-static/static/2017-07/12/13/asset/buzzfeed-prod-fastlane-02/sub-buzz-13399-1499881990-1.jpg?downsize=600:*&output-format=auto&output-quality=auto" width="140px" height="150px" alt="Imagem de capa do card">
                                 <div class="card-body">
                                     <a href="#" class="btn btn-primary"> 
-                                    <h5 class="card-title02">A PISTA E A RAZÃO</h5>
+                                    <h5 class="card-title02">PARAÍSOS ARTIFICIAIS</h5>
                                     <p class="card-text"></p>
                                     </a>
                                 </div>
@@ -285,11 +284,11 @@
                                 </div>
                             </div>
                             <div class="card01" >
-                                <a href="#" class="btn btn-primary"> 
-                                <img class="card-img-top" src="imagens/livroP.jpg" width="140px" height="150px" alt="Imagem de capa do card">
+                                <a href="/Livro" class="btn btn-primary"> 
+                                <img class="card-img-top" src="http://1.bp.blogspot.com/-C_v-IIqyL4A/Tsm3iD20fGI/AAAAAAAAAjU/mwfpVWr_JXE/s1600/O+alienista.jpg" width="140px" height="150px" alt="Imagem de capa do card">
                                 <div class="card-body">
                                     <a href="#" class="btn btn-primary"> 
-                                    <h5 class="card-title02">ERAMOS SEIS</h5>
+                                    <h5 class="card-title02">O ALIENISTA</h5>
                                     <p class="card-text"></p>
                                     </a>
                                 </div>
