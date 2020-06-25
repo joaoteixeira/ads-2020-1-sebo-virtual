@@ -130,8 +130,7 @@ html, body {
     transition: all 0.3s ease-in-out;
     border-radius: 10px;
     margin: 0px 170px 0px;
-
-    background-image: url('imagens/books7.jpg');
+    
     background-repeat: no-repeat;
     background-size:840px 220px;
     bottom: 0;
