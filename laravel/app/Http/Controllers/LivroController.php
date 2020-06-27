@@ -25,7 +25,7 @@ class LivroController extends Controller
      */
     public function create()
     {
-        //
+        return view('Doacao');
     }
 
     /**
@@ -36,7 +36,12 @@ class LivroController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $livros = new Livro();
+        $livros->nome = $request->nome;
+        $livros->autor =$request->autor;
+
+        $livros->save();
+        return 'Doação Realizada com sucesso, muito obrigada';
     }
 
     /**

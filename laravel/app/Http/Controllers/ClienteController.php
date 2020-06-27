@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Livro;
+use App\Leitor;
 use Illuminate\Http\Request;
 
 class ClienteController extends Controller
@@ -16,7 +16,7 @@ class ClienteController extends Controller
     {
         $leitores=Leitor::all();
 
-        return view('layouts.doacao', array('leitores'=>$leitores));
+        return view('cliente.create', array('leitores'=>$leitores));
     }
 
     /**
@@ -37,7 +37,13 @@ class ClienteController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $leitores = new Leitor();
+        $leitores->nome = $request->nome;
+        $leitores->telefone =$request->autor;
+        $leitores->email =$request->email;
+
+        $leitores->save();
+        return 'Leitor Cadastrado com sucesso, muito obrigada';
     }
 
     /**

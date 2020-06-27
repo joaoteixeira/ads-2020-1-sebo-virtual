@@ -132,7 +132,7 @@
     width: 380px;
     height: 250px;
    }
-   .col a[href]  {
+   .col button[type="submit"] {
      border: 0;
      padding: 10px 32px;
      color: #00A8CC;
@@ -140,33 +140,14 @@
      border-radius: 50px;
      border: 2px solid #00A8CC;
      background: #fff;
-     margin:0px 90px  0px;
+     margin: 0px 200px 0px;
      cursor:pointer;
-     text-decoration: none;
    }
    
-   .col a[href]:hover {
+   .col button[type="submit"]:hover {
      background: #00A8CC;
      color: #fff;
    }
-
-   .col button{
-    border: 0;
-    padding: 10px 32px;
-    color: #00A8CC;
-    transition: 0.4s;
-    border-radius: 50px;
-    border: 2px solid #00A8CC;
-    background: #fff;
-    margin:0px 90px  0px;
-    cursor:pointer;
-    text-decoration: none;
-  }
-  
-  .col button:hover {
-    background: #00A8CC;
-    color: #fff;
-  }
    
    @-webkit-keyframes animate-loading {
      0% {

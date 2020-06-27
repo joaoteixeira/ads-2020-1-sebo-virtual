@@ -42,7 +42,7 @@
               </form>
             </div>
           </div>   
-          <table class="table"  width="350" height="100" >
+          <table class="table"  width="500" height="100" >
             <thead>
               <tr >
                 <th>#</th>
