@@ -39,7 +39,7 @@ class ClienteController extends Controller
     {
         $leitores = new Leitor();
         $leitores->nome = $request->nome;
-        $leitores->telefone =$request->autor;
+        $leitores->telefone =$request->telefone;
         $leitores->email =$request->email;
 
         $leitores->save();

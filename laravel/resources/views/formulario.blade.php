@@ -32,13 +32,9 @@
                     <option value="score">Autor</option>
                     <option value="dc.title_sort" >Título</option> <option value="dc.date.issued_dt" >Título</option>
                   </select>
-                <label for="order">Ordenar</label>
-                  <select name="order">
-                    <option value="ASC" >Crescente</option>
-                    <option value="DESC" selected="selected">Descendente</option>
-                  </select>
                   <input type="hidden" name="etal" value="0"/>
                   <input class="btn btn-default" type="submit" name="submit_search" value="Atualizar"/>
+                    <a href="/Doacao" class="btn">Fazer Doação</a></td>
               </form>
             </div>
           </div>   
@@ -53,10 +49,21 @@
             <tbody>
             @foreach($livros as $livro)
               <tr>
-              <td>{{$livro->id}}</td>
+              <td>{{$loop->iteration}}</td> 
                 <td >{{$livro->nome}}</td>
                 <td>{{$livro->autor}}</td>
-              </tr>
+                <td>
+              <form action="{{route('Formulario.destroy',$livro->id)}}" method="post">
+              @csrf
+            @method('DELETE') 
+            <div class="row mt-3">
+              <div class="col">
+              <button type="submit">Requisição</button>
+              </div>
+            </div>
+          </form>
+          </td>
+          </tr>
           @endforeach
           </tbody>
         </table>

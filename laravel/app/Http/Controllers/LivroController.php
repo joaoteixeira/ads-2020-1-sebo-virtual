@@ -41,7 +41,7 @@ class LivroController extends Controller
         $livros->autor =$request->autor;
 
         $livros->save();
-        return 'Doação Realizada com sucesso, muito obrigada';
+        return redirect('Formulario')->with('statusUpdate','Livro requisitado com sucesso!');
     }
 
     /**
@@ -86,6 +86,9 @@ class LivroController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $livros =Livro::find($id);
+        $livros->delete();
+
+        return redirect('Formulario')->with('statusUpdate','Livro requisitado com sucesso!');
     }
 }

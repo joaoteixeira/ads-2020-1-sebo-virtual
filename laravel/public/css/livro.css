@@ -1,0 +1,25 @@
+.card-bt01 {
+    padding-top: 0;
+}
+
+.card-bt01 .card-bt01 {
+    padding: 40px 30px;
+    position:static;
+    overflow: hidden;
+    
+    box-shadow: 5px 10px 29px 0 rgba(68, 88, 144, 0.2);
+    transition: all 0.3s ease-in-out;
+    border-radius: 10px;
+    margin: 0px 0px 30px;
+
+    bottom: 0;
+    color: black;
+    left: 0;
+    overflow: auto;
+    padding: 3em;
+    right:200px;
+    text-align: center;
+    top: 0;
+    width: 1200px;
+    height: 320px;                
+}
